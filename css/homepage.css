@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: darkred;
+}
+
+h1 {
+  margin-left: 10px;
+}
+
+.intro {
+  background: whitesmoke;
+  height: 400px;
+}
+
+.intro p {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 0;
+  padding-top: 20px;
+}
+
+header ul {
+  list-style: none;
+}
+
+header li {
+  display: inline;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 20px;
+}
+
+body {
+  font-family: arial;
+}
+
+.intro {
+  text-align: center;
+  height: 200px;
+}
+
+aside {
+  text-align: center;
+  background: firebrick;
+}
+
+h3 {
+  font-size: 32px;
+  margin: 0;
+  padding: 20px;
+}
+
+h4 {
+  font-size: 32px;
+  margin: 0;
+  padding: 10px;
+}
+
+.popular {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.popularshoe {
+  width: 33%;
+}
+
+.popularshoe img {
+  width:100%;
+}
+
+.shoebrands {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.brand {
+  padding:20px;
+}
+
+.brand p {
+  font-size: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: darkred;
+}
+
+.footer p {
+  padding: 10px;
+}
+.footer ul {
+  list-style: none;
+}
+
+.footer li {
+  display: inline;
+  padding: 15px;
+}
+
+.shoebrands img {
+  height: 229.469px;
+  width: 322.078px;
+}

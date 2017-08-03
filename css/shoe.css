@@ -1,0 +1,70 @@
+body {
+  font-family: arial;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: darkred;
+}
+
+h1 {
+  margin-left: 10px;
+}
+
+header ul {
+  list-style: none;
+}
+
+header li {
+  display: inline;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 20px;
+}
+
+section {
+  display: flex;
+}
+
+img {
+  width: auto;
+}
+
+.purchase {
+  text-decoration: none;
+}
+
+.description {
+  padding-right: 20px;
+  padding-top: 100px;
+}
+
+.description p {
+  text-decoration-color: darkred;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: darkred;
+}
+
+.footer p {
+  padding: 10px;
+}
+.footer ul {
+  list-style: none;
+}
+
+.footer li {
+  display: inline;
+  padding: 15px;
+}
