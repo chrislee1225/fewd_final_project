@@ -5,6 +5,7 @@ body {
 a {
   color: inherit;
 }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -49,6 +50,10 @@ body {
 .intro {
   text-align: center;
   height: 200px;
+}
+
+input[type="text"] {
+    width: 200px;
 }
 
 aside {
@@ -120,4 +125,14 @@ h4 {
 .shoebrands img {
   height: 229.469px;
   width: 322.078px;
+}
+
+.ui-autocomplete { position: absolute; cursor: default; background:#CCC }
+
+.ui-menu {
+    list-style:none;
+    padding: 2px;
+    margin: 0;
+    display:block;
+    float: left;
 }

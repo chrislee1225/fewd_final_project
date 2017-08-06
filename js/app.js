@@ -1,13 +1,34 @@
 console.log ("Loaded");
 
-$(".searchbutton").click(function() {
-  var userInput = $(".searchshoe").val();
+$( function() {
+    var availableTags = [
+      "Adidas Yeezy Boost 350 Turtle Dove",
+      "Adidas Yeezy Boost 350 V2 Beluga",
+      "Air Jordan 1 Royal",
+      "Beluga",
+      "Flyknit Trainer",
+      "Nike Flyknit Trainer",
+      "Royal",
+      "Turtledove"
+      ];
+    $( "#searchshoe" ).autocomplete({
+      source: availableTags
+    });
+  } );
 
-  if (userInput == "Beluga") {
+  $('ul.ui-autocomplete').css({
+      color: 'red'
+  });
+
+$(".searchbutton").click(function() {
+
+  var userInput = $("#searchshoe").val();
+
+  if (userInput == "Beluga" || userInput == "Adidas Yeezy Boost 350 V2 Beluga") {
     window.location.replace("beluga.html");
-  } else if (userInput == "Turtle Dove") {
+  } else if (userInput == "Turtledove" || userInput == "Adidas Yeezy Boost 350 Turtle Dove") {
     window.location.replace("turtledove.html");
-  } else if (userInput == "Trainer" || userInput == "Flyknit Trainer") {
+  } else if (userInput == "Flyknit Trainer" || userInput == "Nike Flyknit Trainer") {
     window.location.replace("trainer.html");
   } else if (userInput == "Royal" || userInput == "Air Jordan 1 Royal") {
     window.location.replace("royal.html");
